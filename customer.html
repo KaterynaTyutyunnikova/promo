@@ -20,9 +20,9 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./index.html"
+    <header class="header">
+      <nav class="nav">
+        <a class="logo" href="./index.html"
           ><img
             src="./images/logo.svg"
             alt="logo"
@@ -30,191 +30,206 @@
             height="36"
           />Product</a
         >
-        <ul>
-          <li><a href="./index.html">Product</a></li>
-          <li><a href="./customer.html">Customers</a></li>
-          <li><a href="./pricing.html">Pricing</a></li>
-          <li><a href=""></a>Resources</li>
+        <ul class="nav-list">
+          <li><a class="nav-link" href="./index.html">Product</a></li>
+          <li>
+            <a class="nav-link current" href="./customer.html">Customers</a>
+          </li>
+          <li><a class="nav-link" href="./pricing.html">Pricing</a></li>
+          <li><a class="nav-link" href="">Resources</a></li>
         </ul>
       </nav>
-      <ul>
-        <li><button type="button">Sing in</button></li>
-        <li><button type="button">Sing up</button></li>
+      <ul class="header-list-btn">
+        <li>
+          <button class="header-btn header-btn-in" type="button">
+            Sign In
+          </button>
+        </li>
+        <li>
+          <button class="header-btn header-btn-up" type="button">
+            Sign Up
+          </button>
+        </li>
       </ul>
     </header>
     <main>
-      <section>
-        <h1>Our Clients</h1>
-        <ul>
-          <li><img src="./images/Airbnb Logo.svg" alt="Airbnblogo" /></li>
-          <li><img src="./images/Google Logo.svg" alt="googlelogo" /></li>
-          <li>
+      <section class="clients">
+        <h1 class="clients-title">Our Clients</h1>
+        <ul class="clients-list">
+          <li class="clients-item">
+            <img src="./images/Airbnb Logo.svg" alt="Airbnblogo" />
+          </li>
+          <li class="clients-item">
+            <img src="./images/Google Logo.svg" alt="googlelogo" />
+          </li>
+          <li class="clients-item">
             <img src="./images/Microsoft Logo.svg" alt="microsoftlogo" />
           </li>
-          <li><img src="./images/FedEx-Logo.svg" alt="FedExlogo" /></li>
-        </ul>
-      </section>
-      <section>
-        <h2>Why Choose Product?</h2>
-        <ul>
-          <li>
-            <h3>Special Business</h3>
-            <p>
-              Product helps you see how many more days you need to work to reach
-              your financial goal for the month and year. Product helps you see
-              how many more days you need to work to reach your financial goal
-              for the month and year. Product helps you see how many more days
-              you need to work to reach your financial goal for the month and
-              year.
-            </p>
-          </li>
-          <li>
-            <h3>Instant Result</h3>
-            <p>
-              Product helps you see how many more days you need to work to reach
-              your financial goal for the month and year. Product helps you see
-              how many more days you need to work to reach your financial goal
-              for the month and year. Product helps you see how many more days
-              you need to work to reach your financial goal for the month and
-              year.
-            </p>
-          </li>
-          <li>
-            <h3>Fastest way to organize</h3>
-            <p>
-              Product helps you see how many more days you need to work to reach
-              your financial goal for the month and year. Product helps you see
-              how many more days you need to work to reach your financial goal
-              for the month and year. Product helps you see how many more days
-              you need to work to reach your financial goal for the month and
-              year.
-            </p>
+          <li class="clients-item">
+            <img src="./images/FedEx-Logo.svg" alt="FedExlogo" />
           </li>
         </ul>
       </section>
-      <section>
-        <h2>How Product Work?</h2>
-        <ol>
-          <li>
-            <img src="images/mac1.png" alt="mac" /><span>STEP 1</span>
-            <h3>Apply for a product</h3>
-            <p>
+      <section class="produc">
+        <h2 class="produc-title">Why Choose Product?</h2>
+        <ul class="produc-list">
+          <li class="produc-item">
+            <h3 class="produc-subtitle">Special Business</h3>
+            <p class="produc-text">
+              Product helps you see how many more days you need to work to reach
+              your financial goal for the month and year. Product helps you see
+              how many more days you need to work to reach your financial goal
+              for the month and year. Product helps you see how many more days
+              you need to work to reach your financial goal for the month and
+              year.
+            </p>
+          </li>
+          <li class="produc-item">
+            <h3 class="produc-subtitle">Instant Result</h3>
+            <p class="produc-text">
+              Product helps you see how many more days you need to work to reach
+              your financial goal for the month and year. Product helps you see
+              how many more days you need to work to reach your financial goal
+              for the month and year. Product helps you see how many more days
+              you need to work to reach your financial goal for the month and
+              year.
+            </p>
+          </li>
+          <li class="produc-item">
+            <h3 class="produc-subtitle">Fastest way to organize</h3>
+            <p class="produc-text">
+              Product helps you see how many more days you need to work to reach
+              your financial goal for the month and year. Product helps you see
+              how many more days you need to work to reach your financial goal
+              for the month and year. Product helps you see how many more days
+              you need to work to reach your financial goal for the month and
+              year.
+            </p>
+          </li>
+        </ul>
+      </section>
+      <section class="work">
+        <h2 class="work-title">How Product Work?</h2>
+        <ol class="work-list">
+          <li class="work-item">
+            <img src="images/mac1.png" alt="mac" /><span class="work-accent"
+              >STEP 1</span
+            >
+            <h3 class="work-subtitle">Apply for a product</h3>
+            <p class="work-text">
               Completing our easy step-by-step application form gives you access
               to multiple business with multiple products. We analyse your
               business through our proprietary credit analysis technology
             </p>
           </li>
-          <li>
-            <img src="images/mac2.png" alt="computer" /><span>STEP 2 </span>
-            <h3>Pay fully refundable</h3>
-            <p>
+          <li class="work-item">
+            <img src="images/mac2.png" alt="computer" /><span
+              class="work-accent"
+              >STEP 2
+            </span>
+            <h3 class="work-subtitle">Pay fully refundable</h3>
+            <p class="work-text">
               Product will contactting you instantly to receive payment of the
               Application Fee. if no offer of product is available, your fee
               will be fully refunded.
             </p>
           </li>
-          <li>
-            <img src="images/mac3.png" alt="noutbuk" /><span>STEP 3</span>
-            <h3>Completion</h3>
-            <p>
+          <li class="work-item">
+            <img src="images/mac3.png" alt="noutbuk" /><span class="work-accent"
+              >STEP 3</span
+            >
+            <h3 class="work-subtitle">Completion</h3>
+            <p class="work-text">
               Product will continue to liase between borrower and manager to
               procees and complete a quick and efficient settlement
             </p>
           </li>
         </ol>
-        <button type="button">Get in touch with us</button>
+        <button class="work-btn" type="button">Get in touch with us</button>
       </section>
-      <section>
-        <h2>Join thousand of other who have already received offers</h2>
-        <ul>
-          <li>
-            <h3>Business</h3>
-            <ul>
-              <li>
-                <p>Cash Flow</p>
+      <section class="banner">
+        <h2 class="banner-title">
+          Join thousand of other who have already received offers
+        </h2>
+        <ul class="banner-list">
+          <li class="banner-item">
+            <h3 class="banner-subtitle">Business</h3>
+            <ul class="banner-list">
+              <li class="banner-item">
+                <p class="banner-text">Cash Flow</p>
               </li>
-              <li>
-                <p>Asset Backed</p>
+              <li class="banner-item">
+                <p class="banner-text">Asset Backed</p>
               </li>
-              <li>
-                <p>Receivables Finance</p>
+              <li class="banner-item">
+                <p class="banner-text">Receivables Finance</p>
               </li>
-              <li>
-                <p>Find the best business product</p>
+              <li class="banner-item">
+                <p class="banner-desk">Find the best business product</p>
               </li>
             </ul>
           </li>
-          <li>
-            <h3>Enterprise</h3>
-            <ul>
-              <li>
-                <p>Site Acquisition</p>
+          <li class="banner-item">
+            <h3 class="banner-subtitle">Enterprise</h3>
+            <ul class="banner-list">
+              <li class="banner-item">
+                <p class="banner-text">Site Acquisition</p>
               </li>
-              <li>
-                <p>Bridge</p>
+              <li class="banner-item">
+                <p class="banner-text">Bridge</p>
               </li>
-              <li>
-                <p>Development Financing</p>
+              <li class="banner-item">
+                <p class="banner-text">Development Financing</p>
               </li>
-              <li>
-                <p>Find the best business product</p>
+              <li class="banner-item">
+                <p class="banner-desk">Find the best business product</p>
               </li>
             </ul>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Join 100 Compannies who boost their business with Product</h2>
-        <button type="button">Get This</button
-        ><img src="./images/graphics.png" alt="graphics" />
+      <section class="promo">
+        <h2 hidden>Promo</h2>
+        <p class="promo-text">
+          Join 100 Compannies who boost their business with Product
+        </p>
+        <button class="promo-btn" type="button">Get This</button>
+        <img
+          src="./images/graphics.png"
+          alt="graphics"
+          width="351"
+          height="331"
+        />
       </section>
     </main>
-    <footer>
-      <img src="./images/logo.svg" alt="logo" />
-      <p>Product</p>
-      <ul>
-        <li>
-          <h3>Resource</h3>
-          <ul>
-            <li>
-              <p>About Us</p>
-            </li>
-            <li>
-              <p>Blog</p>
-            </li>
-            <li>
-              <p>Contact</p>
-            </li>
-            <li>
-              <p>FAQ</p>
-            </li>
-          </ul>
-        </li>
-        <li>
-          <h3>Legal Stuff</h3>
-          <ul>
-            <li>
-              <p>Disclaimer</p>
-            </li>
-            <li>
-              <p>Financing</p>
-            </li>
-            <li>
-              <p>Privacy Policy</p>
-            </li>
-            <li>
-              <p>Terms of Service</p>
-            </li>
-          </ul>
-        </li>
+    <footer class="footer-page">
+      <a class="footer-logo" href="./index.html"
+        ><img
+          src="./images/logo.svg"
+          alt="logo"
+          width="40"
+          height="36"
+        />Product</a
+      >
+      <h3 class="footer-title">Resource</h3>
+      <ul class="footer-list">
+        <li><a class="footer-link" href="">About Us </a></li>
+        <li><a class="footer-link" href="">Blog</a></li>
+        <li><a class="footer-link" href="">Contact</a></li>
+        <li><a class="footer-link" href="">FAQ</a></li>
       </ul>
-      <p>knowing you're always on the best energy deal.</p>
+      <h3 class="footer-title">Legal Stuff</h3>
       <ul>
-        <li><button type="button"></button></li>
-        <li><button type="submit">Sign up Now</button></li>
+        <li><a class="footer-link" href="">Disclaimer </a></li>
+        <li><a class="footer-link" href="">Financing</a></li>
+        <li><a class="footer-link" href="">Privacy Policy</a></li>
+        <li><a class="footer-link" href="">Terms of Service</a></li>
       </ul>
-
-      <p>Made With Love By Figmaland All Right Reserved</p>
+      <p class="footer-title">knowing you're always on the best energy deal.</p>
+      <button class="footer-btn" type="submit">Sign up Now</button>
+      <p class="footer-deskription">
+        Made With Love By Figmaland All Right Reserved
+      </p>
     </footer>
   </body>
 </html>
